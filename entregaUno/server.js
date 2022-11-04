@@ -15,5 +15,5 @@ app.all('*', function(req, res){
 });
 
 app.listen(8080, () => {
-    console.log('Server on port 8080');
+    console.log(`Server on port 8080: http://localhost:8080`);
 })
